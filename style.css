@@ -16,4 +16,13 @@ body {
     height: 380px;
     background-color: #636CCB;
     border-radius: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.inner-converter {
+    width: 348px;
+    height: 280px;
+    background-color: #50589C;
+    border-radius: 6rem 6rem 3rem 3rem; 
 }
