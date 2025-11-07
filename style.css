@@ -26,6 +26,9 @@ body {
     background-color: #50589C;
     border-radius: 6rem 6rem 3rem 3rem; 
     padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #convert {
     width: 300px;
@@ -45,7 +48,7 @@ body {
 }
 .country-div p {
     font-size: 1.1rem;
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     margin-right: 8px;
 }
 #select-country {
@@ -74,4 +77,13 @@ body {
 .convert-word p {
     color: white;
     text-align: center;
+}
+input {
+    width: 240px;
+    height: 42px;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
 }
